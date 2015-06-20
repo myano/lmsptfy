@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /logs
+Disallow: /logs.py
+Disallow: /top10
+Disallow: /top10.py
+Disallow: /traffic
+Disallow: /traffic.html
+Disallow: /qes.csv
+Disallow: /reqs.csv

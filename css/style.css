@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+img{
+    -ms-interpolation-mode: bicubic;
+}
+html{
+    background:#FFF;
+    color:#444;
+    font-family:"Segoe UI",Arial,sans-serif;
+}
+body, form, h1{
+    margin:0;
+    padding:0;
+}
+a:hover{
+    text-decoration:underline;
+}
+a{
+    text-decoration:none;
+    color:#0068CC;
+}
+#cursor{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+.lmsptfy{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold; font-size: 15pt;
+}
+#foryou{
+    margin-bottom: 10px;
+}
+#dmain{
+    width:600px;
+    margin:auto;
+    text-align:center;
+}
+.nodisp{
+    display: none;
+}
+#homelogo{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.shareurl{
+    border:0px;
+    padding: 3px;
+}
+.urlP{
+    /*border:1px solid #009400;
+    border-top:1px solid #009400;*/
+    border: 1px solid #63ADD0;
+    border-top: 1px solid #64ADD0;
+    width:390px;
+    margin:auto;
+    padding:10px;
+}
+.sbox{
+    outline:none;
+    width:350px;
+    color:#222;
+    background:#FFF;
+    font-family:'Segoe UI',Arial,sans-serif;
+    font-size:20px;
+    border:0 none;
+    margin:0;
+    padding:0;
+    padding-left:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#about{
+    padding-left:0px;
+    padding-top:30px;
+    font-size:14px;
+    text-align:center;
+    width:450px;
+    margin:auto;
+}
+#copyright{
+    padding-left:0px;
+    font-size:12px;
+    text-align:center;
+    width:450px;
+    margin:auto;
+}
+#nothing{
+    margin-top:20px;
+}
+.bk{
+    border:0px;
+    padding:3px;
+}
+.sbutton{
+    background:transparent url(../images/zoom.v101.png);
+    background-repeat: no-repeat;
+    width:24px;
+    height:24px;
+    padding:0px;
+    margin:0px;
+    cursor:pointer;
+    border:0 none;
+    vertical-align:top;
+    margin-top:8px;
+    margin-left:6px;
+    margin-right:4px;
+}
+#divsearch{
+    /*border:1px solid #ff6666;
+    border-top:1px solid #ff6666;*/
+    border: 1px solid #0000FF;
+    border: 1px solid #0000FF;
+    width:390px;
+    margin:auto;
+}
